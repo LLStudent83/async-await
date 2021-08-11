@@ -7,7 +7,3 @@ export default class GameSavingLoader {
     return json(buffer);
   }
 }
-
-GameSavingLoader.load().then((saving) => {
-  console.log(saving);
-});
